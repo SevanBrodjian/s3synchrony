@@ -4,9 +4,9 @@ with open('README.md', 'r') as fh:
       long_description = fh.read()
 
 setuptools.setup(
-      name='s3synchrony',
+      name='synchrony',
       version='0.1.0',
-      description='S3 Synchronization Service',
+      description='This package provides a service for synchronizing file creations, deletions, and modifications across users on an AWS S3 prefix.',
       long_description=long_description,
       long_description_content_type='text/markdown',
       author='Sevan Brodjian',
