@@ -22,13 +22,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 import os
 import sys
 import pathlib
+import shutil
 
 import pandas as pd
 import datetime as dt
 import boto3
 import botocore.exceptions
 import pyperclip
-import shutil
 
 from DataPlatforms import baseconn
 
